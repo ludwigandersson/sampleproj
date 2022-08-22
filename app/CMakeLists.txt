@@ -11,5 +11,6 @@ target_link_libraries(sampleproj PUBLIC Common)
 
 target_include_directories(sampleproj PUBLIC
                            "${PROJECT_BINARY_DIR}"
-                           "${PROJECT_SOURCE_DIR}/lib"
+                           "${CMAKE_SOURCE_DIR}/lib"
                            )
+
